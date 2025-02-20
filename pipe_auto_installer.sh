@@ -71,7 +71,7 @@ show_menu() {
     echo -e "                ${GREEN}Node Manager for ${PROJCET_NAME}${RESET}"
     echo -e "    ${YELLOW}Please choose an option:${RESET}"
     echo -e "    ${CYAN}1.${RESET} ${ICON_INSTALL}  Install Node"
-    echo -e "    ${CYAN}2.${RESET} ${ICON_STATUS}  Check Node Status"
+    echo -e "    ${CYAN}2.${RESET} ${ICON_STATUS} Check Node Status"
     echo -e "    ${CYAN}3.${RESET} ${ICON_STATS}  Check Node Stats"
     echo -e "    ${CYAN}4.${RESET} ${ICON_POINTS}  Check Node Points"
     echo -e "    ${CYAN}5.${RESET} ${ICON_REMOVE}   Remove Node"
@@ -163,7 +163,7 @@ install_node() {
     sudo ./pop --signup-by-referral-route $REF_CODE
     echo
 
-    echo -e "${GREEN}🔌 Signup with referral for the first time${RESET}"
+    echo -e "${GREEN}🚀 Starting the Pipe Netwotk node${RESET}"
     sudo ./pop --ram $RAM --max-disk $DISK --cache-dir $PROJ_DIR/download_cache --pubKey $PUBKEY
 
     
